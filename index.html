@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navigation -->
+    
+    <nav class="nav-box">
+        <div class="nav-container">
+            <div class="nav-part1">COFFEE<small>BLEND</small></div>
+            <div class="nav-part2">
+                <div class="option-box">
+                      
+                <a href="#" class="nav-home">HOME</a>
+                <a href="#">MENU</a>
+                <a href="#">SERVICES</a>
+                <a href="#">BLOG</a>
+                <a href="#">ABOUT</a>
+                <a href="#" class="shop">SHOP <i class="fa-solid fa-caret-down caret"></i>
+                <ul>
+                    <div class="sub-menu-line"></div>
+                    <li>Shop</li>
+                    <li>Single Product</li>
+                    <li>Cart</li>
+                    <li>Checkout</li>
+                    <div class="sub-menu-line"></div>
+                </ul>
+                </a>
+                <a href="#">CONTACT</a>
+                <a href="#" class="cart"><i class="fa-solid fa-cart-shopping cart-icon"></i>
+                </a>
+
+
+                </div>
+              
+            </div>
+
+            <div class="nav-part3">
+                <i class="fa-solid fa-bars"></i>
+                MENU
+
+            </div>
+        </div>
+
+
+
+
+    </nav>
+
+            <!-- image -->
+            <div class="img-box">
+
+                <div class="filter"></div>
+                <div class="img-inner-container">
+                    <div class="img-box-text-1">Welcome</div>
+                    <h1 class="img-box-text-2">Amazing Taste & Beautiful <br> Place</h1>
+                    <p class="img-box-text-3">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <p class="img-button"><a href="#">Order Now</a><a href="#">View Menu</a></p>
+                </div>
+
+                <!-- circle -->
+                <div class="circle-wrapper">
+                    <div class="circle one">
+                        <div class="inner-circle inner-one"></div>
+                    </div>
+                    <div class="circle two">
+                        <div class="inner-circle inner-two"></div>
+                    </div>
+                    <div class="circle three">
+                        <div class="inner-circle inner-three"></div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+        <script>
+            $(document).ready(function(){
+
+                $('.nav-part3').click(function(){
+                    
+                    $('.option-box').toggleClass('visibility-media-logo');
+
+                });
+
+            });
+        </script>
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
